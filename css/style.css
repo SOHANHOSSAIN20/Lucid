@@ -1,0 +1,281 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+header{
+    background-image: url(../img/lucid_banner.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    position: relative;
+    padding: 0;
+}
+.navbar-light .navbar-nav .nav-item{
+    padding: 0 15px;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #fff;
+}
+.navbar-light .navbar-nav .nav-link::before{
+    content: '';
+    position: absolute;
+    bottom: -7px;
+    left: 0;
+    height: 2px;
+    width: 0%;
+    background:#008ed6;
+    transition: .4s all ease-in-out;
+}
+.navbar-light .navbar-nav .nav-link::after{
+    content: '';
+    position: absolute;
+    bottom: -7px;
+    right: 0;
+    height: 2px;
+    width: 0%;
+    background:#008ed6;
+    transition: .4s all ease-in-out;
+}
+.navbar-light .navbar-nav .nav-link:hover::before{
+    width: 45%;
+}
+.navbar-light .navbar-nav .nav-link:hover::after{
+    width: 45%;
+}
+.banner_content{
+
+}
+.banner_content h5{
+    
+color: #008ed6;
+    
+text-transform: uppercase;
+    
+letter-spacing: 2px;
+    
+font-size: 16px;
+margin-bottom: 15px;
+}
+.banner_content h1{
+    
+color: #fff;
+    
+text-transform: capitalize;
+margin-bottom: 30px;
+
+}
+.banner_content p{
+    
+color: #7f7f7f;
+margin-bottom: 30px;
+}
+.btn-download{
+
+background: #008ed6;
+
+color: #fff;
+
+font-weight: 600;
+
+padding: 15px 25px;
+
+font-size: 14px;
+border-radius: 5px;
+}
+.btn-features {
+    color: #fff;
+    border: 1px solid #938484;
+    font-weight: 600;
+padding: 15px 25px;
+font-size: 14px;
+border-radius: 5px;
+margin-left: 30px;
+}
+.btn-download:hover{
+    color: #fff;
+    background: transparent;
+    border: 1px solid #888888;
+}
+.btn-features:hover{
+    color: #fff;
+    background:#008ed6;
+    border:transparent;
+}
+.banner_content{
+    min-height: 90vh;
+    align-items:center;
+    position: relative;
+}
+.phone{
+
+position: absolute;
+
+bottom: 0;
+
+left: 55%;
+
+width: 50%;
+}
+.phone img{
+    
+}
+.heading{
+
+}
+.heading h1{
+    
+color: #000;
+}
+.heading h5{
+    
+color: #008ed6;
+    
+letter-spacing: 1px;
+}
+.heading span{
+display: inline-block;
+height: 2px;
+width: 70px;
+position: relative;
+}
+.heading span::before{
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 100%;
+    background: #008ed6;
+    left: 0;
+    top: 0;
+    transition: .4s all ease-in-out;
+}
+.heading span::after{
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 100%;
+    background: #008ed6;
+    right: 0;
+    top: 0;
+    transition: .4s all ease-in-out;
+}
+.feature{
+
+}
+.feature:hover .heading span::after{
+    width: 45%;
+}
+.feature:hover .heading span::before{
+    width: 45%;
+}
+.features_items{
+
+}
+.features_items h2{
+    color: #1a1a1a;
+}
+.features_items p{
+    color: #b8b8b8;
+}
+.icon_box{
+    
+color: #008ed6;
+    
+height: 60px;
+    
+width: 60px;
+    
+border: 1px solid #cfc9c9;
+    
+border-radius: 50%;
+    
+line-height: 60px;
+    
+font-size: 22px;
+    
+margin: auto;
+}
+.feature_two{
+    
+}
+.feature_two h1{
+    margin-bottom: 15px;
+}
+.feature_two h5{
+        
+color: #008ed6;
+letter-spacing: 1px;
+text-transform: uppercase;
+}
+.feature_two span{
+       display: inline-block;
+        height: 2px;
+        width: 70px;
+        margin-bottom: 15px;
+        position: relative;
+}
+       
+.feature_two p{
+    margin-bottom: 15px;
+}
+.feature_two span::before{
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 45%;
+    background: #008ed6;
+    left: 0;
+    top: 0;
+
+}
+.feature_two span::after{
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 45%;
+    background: #008ed6;
+    right: 0;
+    top: 0;
+
+}
+.feature_two{
+ border-top: 1px solid #d0b7b7;
+}
+.feature_two:hover .feature_two span::after{
+   width: 45%;
+}
+.feature_two:hover .feature_two span::before{
+    width: 45%;
+}
+.middle_section{
+background-color: #f2f2f2;
+}
+.middle_section h5{
+    color: #008ed6;
+letter-spacing: 1px;
+text-transform: uppercase;
+}
+.middle_section h1{
+    margin-bottom: 15px;
+}
+.middle_section span{
+    display: inline-block;
+    height: 2px;
+    width: 70px;
+    margin-bottom: 15px;
+  background: #008ed6;
+}
+
+
+
+
+
+
+
